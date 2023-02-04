@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+      margin:0;
+      padding: 0;
+      overflow: hidden;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+body{
+      background-color:#91D8E4;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-transform: capitalize;
+}
+/* LIST */
+li{
+      list-style: none;
+}
+/* LINKS */
+a{
+      text-decoration: none;
+      color: black
+}
+/* BUTTONS */
+[type="button"]{
+      text-transform: capitalize;
+      background-color:#645CBB;
+      padding: 4px 10px;
+      cursor: pointer;
+      color: white;
+      border:1px solid black;
+      border-radius: 4px;
+      font-weight: 600;
+      width: fit-content;
+}
+[type="button"]:hover{
+      background-color: #fff;
+      color: black;
+      border: 1px solid black;
+}
+/* NAVIGATION */
+nav{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.nav-links ul{
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      gap: 30px;
+}
+.nav-links ul li a:hover{
+      font-weight: 900;
+      color: gray;
+      text-decoration: underline;
+      text-decoration-thickness:2px;
+}
+/* LOGO */
+.logo{
+font-weight: 700;
+font-size: 2rem;
+text-transform: capitalize;
+}
+
+/* SEARCH BOX  */
+.search-box{
+      padding-top: 7px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+}
+.search-box input{
+      text-transform: capitalize;
+      border-radius: 4px;
+      font-family: 1.3rem;
+      background-color:#FFFBEB;
+      padding: 4px 10px;
+      border: 1px solid black;
+}
+.search-box input:focus{
+      background-color:#f8f6f6;
+      font-weight:700;
+}
+/* HERO SECTION */
+.hero-section{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+}
+
+/*  LEFT SIDE */
+.hero-left-side h1{
+      font-size:1.7rem;
+      font-weight: 700;
+      margin-bottom:20px;
+}
+.hero-left-side h1 span{
+      color:#645CBB;
+      font-weight: 900;
+      font-size: 2.3rem;
+}
+.hero-left-side p{
+      font-size: 1rem;
+      font-weight: 700;
+}
+.hero-left-side p span{
+      color:#645CBB;
+      font-weight: 900;
+      font-size:1.4rem;
+}
+/* RIGHT SIDE */
+.hero-right-side{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+}
+
+.my-image{
+
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-image: url("/images/vivek.jpg");
+      background-size: cover;
+}
+
+/* FOOTER SECTION */
+footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-weight: 700; 
+}
+
+footer ul{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+}
